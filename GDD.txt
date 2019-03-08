@@ -1,0 +1,39 @@
+#Game Design Document
+##Concept:
+
+Tank fighter game that pits players in PvP tank combat in open terrain. The tank will be controlled atomically (IE each tread will have a speed and the turret can be spun 360 degrees and elevated). The game will use arcade physics (a focus more on fun than realism) as to promote a sense of fast paced combat. The game can be played PvE or PvP, and thus will have multiplayer support.
+
+##Rules:
+Players will be given a limited amount of ammo and health in one match where the round concludes after a set amount of time. The player with the least amount of damage will be declared the winner. Additionally, if a tank is destroyed then the round will conclude and the tank that is still operational will be declared victorious. The scope of combat will be limited to confined terrain as to promote combat. Tanks will be allowed three repairs which will leave them temporarily immobile but will repair their tank to a certain degree.
+
+##Requirements:
+
+	Assets: 
+	• Meshes
+		○ Tank body
+		○ Tank Turret
+		○ Ammo crate
+	• Animation
+		○ Moving tread
+		○ Rotating turret
+		○ Elevating turret
+	• Textures
+		○ Tank
+	• Sound
+		○ Tank idle
+		○ Tank moving
+		○ Tank firing
+		○ Turret moving
+		○ Explosion
+			§ On terrain
+			§ On tank
+				□ Direct hit
+				□ Shrapnel hit
+		○ Emergency siren (if a specific component is damaged past a critical value)
+		○ Win music
+		○ Lose music
+		○ Round begin music
+		○ Combat music
+	• Media/Pictures
+		○ Splash screen logo
+Start screen 
